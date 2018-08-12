@@ -264,3 +264,29 @@ ul li{
     text-decoration:underline;
     color:rgb(172, 194, 64);
 }
+@media screen and  (min-width: 768px){
+    .header{
+        height: 110px;
+    }
+    
+
+}
+@media only screen and (min-width: 769px){
+    .passwordform {
+        margin-top: 25px;
+        padding-right: 25px;
+    }
+
+    .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+    .container_form{
+       
+            display: inline-block;
+            margin-bottom: 0;
+            vertical-align: middle;
+        }
+    
+}
