@@ -122,8 +122,9 @@ color: #e8e8e8;
 .search_form_about{
     padding: 4px;
 	border: 1px solid #b9bdc1;
-    color: #505050;
-    margin-bottom: -31px;
+    color: #505050;  
+    margin-bottom: 5px;
+    margin-right: 10px;  
     background-color: rgb(172, 194, 64);
 }
 ul li{
@@ -264,9 +265,10 @@ ul li{
     text-decoration:underline;
     color:rgb(172, 194, 64);
 }
-@media screen and  (min-width: 768px){
+@media only screen and (min-width: 768px){
     .header{
-        height: 110px;
+        height: 110px;         
+        width: 100%;
     }
     
 
@@ -276,12 +278,7 @@ ul li{
         margin-top: 25px;
         padding-right: 25px;
     }
-
-    .form-inline .form-group {
-        display: inline-block;
-        margin-bottom: 0;
-        vertical-align: middle;
-    }
+    
     .container_form{
        
             display: inline-block;
@@ -289,4 +286,11 @@ ul li{
             vertical-align: middle;
         }
     
+}
+@media only screen and (max-width: 425px) and (min-width: 321px)
+{.header {
+    height: 61px!important;
+    background-color: #000;    
+    width: 100%;
+}
 }
