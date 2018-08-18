@@ -1,0 +1,4 @@
+{
+  "test.py": true,
+  "test.py::StackOverflowTestcase::test_hello_world": true
+}
