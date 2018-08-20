@@ -1,4 +1,4 @@
 {
-  "test.py": true,
-  "test.py::StackOverflowTestcase::test_hello_world": true
+  "test.py::ApiTestCases": true,
+  "test.py::ApiTestCases::test_user_logged_in": true
 }
