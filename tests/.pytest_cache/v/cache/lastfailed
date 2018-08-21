@@ -1,0 +1,4 @@
+{
+  "test.py::ApiTestCases": true,
+  "test.py::ApiTestCases::test_user_logged_in": true
+}
