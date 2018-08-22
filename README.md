@@ -22,3 +22,9 @@
 	HTML
 	CSS
 
+	## For project contributions
+
+	- clone https://github.com/steveviko/StackOverflow-lite-/tree/api to your computer
+
+	## This Platform is served by  
+	 - git-pages [GitHub Pages](https://steveviko.github.io/StackOverflow-lite//). 
