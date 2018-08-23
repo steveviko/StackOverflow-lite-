@@ -33,12 +33,12 @@ Setup/Installation Requirements
 -Browser such as Google chrome
 ``` 
  Tools
-``` 
+ 
 ●	Server-Side Framework: <Flask Python Framework>
 ●	Linting Library: <Pylint, a Python Linting Library>
 ●	Style Guide: <PEP8 Style Guide>
 ●	Testing Framework: <PyTest, a Python Testing Framework>
- 
+ ```
 ## For project contributions
 - [clone]( https://github.com/steveviko/StackOverflow-lite-/tree/api) to your computer
 
