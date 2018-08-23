@@ -12,8 +12,9 @@ parser = reqparse.RequestParser()
 class Questions(Resource):
     #Fetch all questions
     def get(self):
-        self.question = questions
-        return {self.question},200
+        self.question = questions               
+        return {'Questions':self.question},200
+        
 
     #Add a question
     def post(self):
@@ -28,10 +29,13 @@ class Questions(Resource):
 class Get_Single_question(Resource):
     #Fetch single questions
     def get(self, id):
-        qn = questions
-        return {id:qn[id]},200
+        self.qn = questions
+        Single_qn = [key for key in self.qn if key["id"] == id]
+        if not Single_qn:
+            return {'msg':'No available question for your search..!!!!'}
 
-
+        return Single_qn,200
+        
 
 class Add_SingleQuestion(Resource):
     #Add  a question
