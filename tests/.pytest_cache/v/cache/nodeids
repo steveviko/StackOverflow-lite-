@@ -1,0 +1,6 @@
+[
+  "test.py::TestEndpoints::test_get_method_to_get_all_question",
+  "test.py::TestEndpoints::test_get_method_to_get_single_question",
+  "test.py::TestEndpoints::test_put_method_to_add_answer",
+  "test.py::TestEndpoints::test_put_method_to_add_questions"
+]

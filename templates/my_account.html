@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- structure.User accounts page for STACKOVERFLOW-LITE-->
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>
+         STACKOVERFLOW-LITE |User Accounts page
+    </title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}" media="screen">
+ 
+</head>
+<body>
+        <div id="container">
+                <div class="header">
+                    <div class="logo">
+                        <a href="">STACKOVERFLOW-LITE</a>
+                    </div>
+                    <div class="container_form">
+                            <div class="">
+                                
+                                <form action="" method="POST">
+                                    <span class="passwordform">
+                                        <button type="submit" id="signup" class="bt">Messages(0)</button>                                                                        
+                                        <button type="submit" id="signup" class="bt">My Account</button>
+                                        <button type="submit" id="signup" class="bt">LOGOUT</button>
+                                    </span>
+                                    
+                                </form>
+                               
+                            </div>
+                    </div>
+                </div>
+                <div class="link">
+                                        
+                        <ul class="menu">
+                          <li><a href="">Home</a></li>
+                          <li><a href="">Help Center</a></li>
+                          <li><a href="">F.A.Q</a></li>
+                          <li><a href="">Contact Us</a></li>
+                          <img class="flag-UG" src="images/ug.png"/>
+                        </ul>
+                        
+                     
+                </div>
+                  <div class="main_content">
+                    <div class="left_side_navigation">
+                            <form action="" class="search_form" method="GET">
+                            <input type="search"class="input" placeholder="ask a question" />
+                            <input type="submit" value="search" class="user_button"/>
+                            </form>
+                            <div class="about_me">
+                                    <h2>About Me</h2>
+                                    <div class="about_image" >Image</div>
+                                    <p>Account user Name</p>
+                            </div>
+                            <ul>
+                                    <li class="search_form_about"><a href="">View All</a></li>
+                                    <li class="search_form_about"><a href="">Pending aswers</a></li>
+                                    <li class="search_form_about"><a href="">Posted answers</a></li>
+                            </ul>
+                            
+                            
+                        </div>  
+                    <div class="content">
+                        <div class="search_form">
+                            <form action="" method="POST" >
+                                <input type="text" class="search" name="serach" placeholder="sharing somthing" />
+                                <input type="submit" value="post" class="user_button" name="" />
+                            </form>
+                        </div>
+                        <article>
+                            <header>
+                                    <h3>post title here.</h3>
+                            </header>
+                            <footer>
+                                <p>posted by steven</p>
+                            </footer>
+                            
+                            <p>Wisiet sus adipit phasellentum elit condissim consecteturpiscing sapien vivamus et congue. Utvel tris quismod cursus liberos elit nisse curabitur tur parturpis tellenterdum. Semperligula curabitae tellentesque nulla trices vestas ristibulum id justo auctor facinia. Natisdonec consequat nibh pellus.</p>
+                            <p>Vestibusodio euisque id elerisus lacus tincidunt sit malesuada lacus pellus parturpiscing. Pellenterdumat maecenatoque cras a magna nibh et quis diam ames et. Laoremvolutpat ac dolor eget eget temper lacus vestibus velit lacus venean. Magnaipsum tellus morbi leo aliquat nulla convallis pellentesque.</p>
+                            <form action="">
+                                    <h6>Leave a Comment</h6>
+                                    <label for="FirstName">First Name</label>
+                                    <input type="text" class="input_comment" id="FirstName" name="FirstName" placeholder="Fill in Your name..">
+                                
+                                    <label for="LastName">Last Name</label>
+                                    <input type="text" class="input_comment" id="LastName" name="LastName" placeholder="Fill in Your last name..">                               
+                                    
+                                
+                                    <label for="comment">Comment</label>
+                                    <textarea id="comment" class="text_comment" name="comment" placeholder="Write Your comment.." ></textarea>
+                                
+                                    <input type="submit" class="submit_comment" value="Post my comment">
+                                
+                                  </form>
+                        </article>
+                    </div>
+                    <div class="right_side_navigation">
+                            <h2 class="search_form">Related questions.</h2>
+                            <ul>
+                                <li><a href="">question one</a></li>
+                                <li><a href="">question two</a></li>
+                                <li><a href="">question Three</a></li>
+                            </ul>
+                            <h2 class="search_form">Categories.</h2>
+                            <ul>
+                                <li><a href="">category one</a></li>
+                                <li><a href="">category two</a></li>
+                                <li><a href="">category Three</a></li>
+                            </ul>
+                            <h2 class="search_form">Popular Members.</h2>
+                            <ul>
+                                <li><a href="">list of popular members</a></li>
+                                <li><a href="">list of popular members</a></li>
+                                <li><a href="">list of popular members</a></li>
+                            </ul>
+                            <h2 class="search_form">New Members.</h2>
+                            <ul>
+                                <li><a href="">list of New members</a></li>
+                                <li><a href="">list of New members</a></li>
+                                <li><a href="">list of New members</a></li>
+                            </ul>
+                     </div>
+                  </div>                                
+                 
+                  <div id="footer">
+                    <p class="left">Copyright &copy; 2018 <a href="#"> STACKOVERFLOW-LITE</a> - All Rights Reserved</p>
+                    <p class="right">Design by OS <a href="#">venviko.com</a></p>
+                  </div>
+                </div>
+
+
+
+</body>
+</html>
