@@ -8,7 +8,7 @@ omit =
    */__pycache__/*
 
    *.pyc
-   *test_api.py
+   *views.py
 
    */venv/*
    */app/__pycache__/*
