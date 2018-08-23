@@ -1,5 +1,4 @@
 # StackOverflow-lite-App
-[![Build Status](https://travis-ci.org/steveviko/StackOverflow-lite-.svg?branch=coverage)](https://travis-ci.org/steveviko/StackOverflow-lite-)
 [![Coverage Status](https://coveralls.io/repos/github/steveviko/StackOverflow-lite-/badge.svg?branch=coverage)](https://coveralls.io/github/steveviko/StackOverflow-lite-?branch=coverage)
 [![Build Status](https://travis-ci.org/steveviko/StackOverflow-lite-.svg?branch=api)](https://travis-ci.org/steveviko/StackOverflow-lite-)
 
