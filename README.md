@@ -1,4 +1,6 @@
 # StackOverflow-lite-App
+[![Coverage Status](https://coveralls.io/repos/github/steveviko/StackOverflow-lite-/badge.svg?branch=api_all_questions)](https://coveralls.io/github/steveviko/StackOverflow-lite-?branch=api_all_questions)
+[![Build Status](https://travis-ci.org/steveviko/StackOverflow-lite-.svg?branch=api)](https://travis-ci.org/steveviko/StackOverflow-lite-)
 
 	StackOverflow-lite is a platform where people can ask questions and provide answers.
  
