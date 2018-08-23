@@ -1,8 +1,4 @@
 {
   "test.py::ApiTestCases": true,
-  "test.py::ApiTestCases::test_user_logged_in": true,
-  "test.py::TestEndpoints": true,
-  "test.py::TestEndpoints::test_get_method_to_get_all_question": true,
-  "test.py::TestEndpoints::test_put_method_to_add_answer": true,
-  "test.py::TestEndpoints::test_put_method_to_add_questions": true
+  "test.py::ApiTestCases::test_user_logged_in": true
 }

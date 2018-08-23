@@ -13,13 +13,16 @@ class TestEndpoints(unittest.TestCase):
         
 
     def test_get_method_to_get_all_question(self):
-        response = self.app.get("/api/v1/questions")
-        self.assertEquals(response.status_code, 200)
+         response = self.app.get('/api/v1/questions/',
+                                content_type="application/json")
+         self.assertEqual(response.status_code, 200)
 
 
     def test_get_method_to_get_single_question(self):
-        response = self.app.get("/api/v1/questions")
-        self.assertEquals(response.status_code, 200)
+        response = self.app.get('/api/v1/questions/1',
+                                content_type="application/json")
+        self.assertEqual(response.status_code, 200)
+
 
     def test_put_method_to_add_questions(self):
         response = self.app.put(
@@ -28,7 +31,7 @@ class TestEndpoints(unittest.TestCase):
  
     def test_put_method_to_add_answer(self):
         response = self.app.put(
-            '/api/v1/1/questions/1')
+            '/api/v1/questions/1')       
         self.assertEqual(response.status_code, 200)
         
 
