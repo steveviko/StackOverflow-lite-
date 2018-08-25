@@ -28,7 +28,7 @@ class Answers():
         self.qn_id = qn_id
         self.text  = text
 
-        def get_text(self):
+    def get_text(self):
             return self.text
 
 
