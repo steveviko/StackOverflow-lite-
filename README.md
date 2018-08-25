@@ -14,10 +14,10 @@ variable below.
 Windows
 ## setup development environment
 Steps:
--[Install Python]
--[Install Pip]
--[Install VirtualEnv]
--[Install VirtualEnvWrapper-win]
+-Install Python
+-Install Pip]
+-Install VirtualEnv]
+-Install VirtualEnvWrapper-win 
 
 
 ```
