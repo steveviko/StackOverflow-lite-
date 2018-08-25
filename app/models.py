@@ -19,11 +19,17 @@ class Questions():
     def get_answers(self):
         return self.answers
 
-        
+
     def get_category(self):        
         return self.category 
 
-    
+class Answers():
+    def __init__(self,qn_id,text):
+        self.qn_id = qn_id
+        self.text  = text
+
+        def get_text(self):
+            return self.text
 
 
 

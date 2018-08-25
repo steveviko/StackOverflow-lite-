@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/steveviko/StackOverflow-lite-.svg?branch=api)](https://travis-ci.org/steveviko/StackOverflow-lite-)
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.The api enables a you to Create, Read and Update a question and add  answers to a question.The code lives on Github and you can find it [here](https://github.com/steveviko/StackOverflow-lite-/tree/api).
-
+----
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
