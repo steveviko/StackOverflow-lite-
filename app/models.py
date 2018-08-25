@@ -1,38 +1,34 @@
-from db import Users,questions,answers
+from flask import jsonify, request, json, make_response
 
-class User:
-    def __init__(self, username, password):
-        self.username = username
-        self.password = password
-
-    def signup(self, user):
-        Users.append(user)
-        print("user successfully signed up")
-
-    def login(self, username, password):
-        for user in Users:
-            if user.username == username and user.password == password:
-                return True
-        return False
-
-    def logout(self):
-        pass
-
-    def post_question(self, question):        
-        user_question = questions(question, self.username)
-        questions.append(user_question)
+questions =[]
+class Questions():
+    def __init__(self,title, text,answers,category):
+        self.title = title
+        self.text = text
+        self.answers = []
+        self.category = []
 
 
-class Questions:
-    def __init__(self):
-        self.question = {}
+    def to_dict(self):
+        result ={
+                'id':len(questions) +1,
+                'title':request.json['title'],
+                'text':request.json['text']
+                 }
+        return result
+    def get_answers(self):
+        return self.answers
+
+        
+    def get_category(self):        
+        return self.category 
+
+    
 
 
-    def save_question(self, id , username, question):        
-        id       =input("\n Enter an id number")
-        username =input("\n Please Enter your username")
-        question =input("\n Write a question %s:" % username)
 
+
+    
         
         
     
